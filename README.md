@@ -79,7 +79,8 @@
 + [JS](http://c.biancheng.net/js/)
 + [CSS](http://c.biancheng.net/css3/)
 + [Vue官方文档](https://cn.vuejs.org/guide/introduction.html)
-+ [Vue3.0速成笔记](/Vue/Vue3快速上手.md)
++ [Vue3.0速成笔记](Vue/Vue3快速上手.md)
++ [Vue全家桶_pdf](Vue/笔记/尚硅谷_前端技术_Vue全家桶.pdf)
 + [WebPack](https://www.webpackjs.com/)
 
 #### 详细笔记资料

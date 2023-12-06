@@ -62,7 +62,9 @@
 
 [Vue官方文档](https://cn.vuejs.org/guide/introduction.html)
 
-[Vue3.0速成笔记](/Vue/Vue3快速上手.md)
+[Vue3.0速成笔记](Vue/Vue3快速上手.md)
+
+[Vue全家桶_pdf](Vue/Direction.md)
 
 [WebPack](https://www.webpackjs.com/)
 
