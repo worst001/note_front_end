@@ -80,7 +80,7 @@
 
 [京东案例](Front-end-notes/京东案例-notes/jd.md)
 
-[开发规范](Front-end-notes/资料/Web前端开发规范手册.pdf)
+[开发规范](Front-end-notes/Direction.md)
 
 ### 基本介绍
 
@@ -114,9 +114,9 @@
 
 ### 参考文档
 
-[文档](https://flutter.cn/docs/get-started/install/macos)
+[官方文档](https://flutter.cn/docs/get-started/install/macos)
 
-[Flutter_课件_pdf](Flutter/笔记/Flutter基础教程课件-v3.pdf)
+[Flutter_课件_pdf](Flutter/Direction.md)
 
 ### 基本介绍
 

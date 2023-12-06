@@ -75,68 +75,43 @@
 
 ## 传统前端
 
-### 参考文档
++ [HTML](http://c.biancheng.net/html/)
++ [JS](http://c.biancheng.net/js/)
++ [CSS](http://c.biancheng.net/css3/)
++ [Vue官方文档](https://cn.vuejs.org/guide/introduction.html)
++ [Vue3.0速成笔记](/Vue/Vue3快速上手.md)
++ [WebPack](https://www.webpackjs.com/)
 
-[HTML](http://c.biancheng.net/html/)
+#### 详细笔记资料
 
-[JS](http://c.biancheng.net/js/)
-
-[CSS](http://c.biancheng.net/css3/)
-
-[Vue官方文档](https://cn.vuejs.org/guide/introduction.html)
-
-[Vue3.0速成笔记](/Vue/Vue3快速上手.md)
-
-[WebPack](https://www.webpackjs.com/)
-
-#### 详细笔记
-
-[HTML](Front-end-notes/HTML-notes/01-HTML.md)
-
-[CSS](Front-end-notes/CSS-notes/02-CSS.md)
-
-[JS](Front-end-notes/JavaScript-notes/03-JS.md)
-
-[Web-Api](Front-end-notes/Web APIs-notes/04-WebAPIs.md)
-
-[WebPack](Front-end-notes/Webpack-notes/webpack3快速入门教程.md)
-
-[京东案例](Front-end-notes/京东案例-notes/jd.md)
-
-[开发规范](Front-end-notes/资料/Web前端开发规范手册.pdf)
++ [HTML](Front-end-notes/HTML-notes/01-HTML.md)
++ [CSS](Front-end-notes/CSS-notes/02-CSS.md)
++ [JS](Front-end-notes/JavaScript-notes/03-JS.md)
++ [Web-Api](Front-end-notes/Web APIs-notes/04-WebAPIs.md)
++ [WebPack](Front-end-notes/Webpack-notes/webpack3快速入门教程.md)
++ [京东案例](Front-end-notes/京东案例-notes/jd.md)
++ [开发规范](Front-end-notes/资料/Web前端开发规范手册.pdf)
 
 
 ## Flutter
 
-### 参考文档
-
-[文档](https://flutter.cn/docs/get-started/install/macos)
-
-[Flutter_课件_pdf](Flutter/笔记/Flutter基础教程课件-v3.pdf)
++ [官方文档](https://flutter.cn/docs/get-started/install/macos)
++ [Flutter_课件_pdf](Flutter/笔记/Flutter基础教程课件-v3.pdf)
 
 
 ## 公共开放平台
 
-### 参考文档
-
-[微信公众号 官方文档](https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html)
-
-[微信小程序 官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
-
-[支付宝小程序 官方文档](https://opendocs.alipay.com/mini/present)
++ [微信公众号 官方文档](https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html)
++ [微信小程序 官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
++ [支付宝小程序 官方文档](https://opendocs.alipay.com/mini/present)
 
 
 ## 游戏引擎
 
-### 参考文档
-
-[Unity 手册](https://docs.unity.cn/cn/2021.3/Manual/UnityManual.html)
-
-[Unity 技术栈索引](https://github.com/XINCGer/Unity3DTraining)
-
-[Unreal 手册](https://docs.unrealengine.com/5.3/zh-CN/)
-
-[Unreal 案例](https://github.com/neil3d/UnrealCookbook)
++ [Unity 手册](https://docs.unity.cn/cn/2021.3/Manual/UnityManual.html)
++ [Unity 技术栈索引](https://github.com/XINCGer/Unity3DTraining)
++ [Unreal 手册](https://docs.unrealengine.com/5.3/zh-CN/)
++ [Unreal 案例](https://github.com/neil3d/UnrealCookbook)
 
 -------------------
 
