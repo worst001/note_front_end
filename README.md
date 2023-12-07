@@ -79,15 +79,15 @@
 + [JS](http://c.biancheng.net/js/)
 + [CSS](http://c.biancheng.net/css3/)
 + [Vue官方文档](https://cn.vuejs.org/guide/introduction.html)
-+ [Vue3.0速成笔记](Vue/Vue3快速上手.md)
 + [Vue全家桶_pdf](Vue/笔记/尚硅谷_前端技术_Vue全家桶.pdf)
 + [WebPack](https://www.webpackjs.com/)
 
-#### 详细笔记资料
+#### 笔记教程
 
 + [HTML](Front-end-notes/HTML-notes/01-HTML.md)
 + [CSS](Front-end-notes/CSS-notes/02-CSS.md)
 + [JS](Front-end-notes/JavaScript-notes/03-JS.md)
++ [Vue3.0速成笔记](Vue/Vue3快速上手.md)
 + [Web-Api](Front-end-notes/Web APIs-notes/04-WebAPIs.md)
 + [WebPack](Front-end-notes/Webpack-notes/webpack3快速入门教程.md)
 + [京东案例](Front-end-notes/京东案例-notes/jd.md)

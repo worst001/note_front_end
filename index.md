@@ -62,19 +62,19 @@
 
 [Vue官方文档](https://cn.vuejs.org/guide/introduction.html)
 
-[Vue3.0速成笔记](Vue/Vue3快速上手.md)
-
 [Vue全家桶_pdf](Vue/Direction.md)
 
 [WebPack](https://www.webpackjs.com/)
 
-#### 详细笔记
+#### 笔记教程
 
 [HTML](Front-end-notes/HTML-notes/01-HTML.md)
 
 [CSS](Front-end-notes/CSS-notes/02-CSS.md)
 
 [JS](Front-end-notes/JavaScript-notes/03-JS.md)
+
+[Vue3.0速成笔记](Vue/Vue3快速上手.md)
 
 [Web-Api](Front-end-notes/Web APIs-notes/04-WebAPIs.md)
 

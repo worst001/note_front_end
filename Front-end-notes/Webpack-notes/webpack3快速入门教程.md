@@ -1,4 +1,4 @@
-[TOC]
+<!-- [TOC] -->
 
 ## webpack快速入门教程
 
@@ -31,7 +31,7 @@
   * 初始化项目：
 	  * 生成package.json文件
 	  * 
-	  ```   
+	  ```json
 	  {
 	    "name": "webpack_test",
 	    "version": "1.0.0"
@@ -53,7 +53,7 @@
   * 查看页面效果
 ### 5、添加js/json文件
 	* 创建第二个js: src/js/math.js
-	    ``` 
+	    ```js
 	    export function square(x) {
 	      return x * x;
 	    }
@@ -63,14 +63,14 @@
 	    }
 	    ```
 	* 创建json文件: src/json/data.json
-	    ```
+	    ```json
 	    {
 	      "name": "Tom",
 	      "age": 12
 	    }
 	    ```
 	* 更新入口js : entry.js
-	    ```
+	    ```js
 	    import {cube} from './math'
 	    import data from '../json/data.json'
 	    //注意data会自动被转换为原生的js对象或者数组
@@ -79,13 +79,13 @@
 	    document.write(JSON.stringify(data) + '<br/>')
 	    ```
 	* 编译js:
-	    ```
+	    ```bash
 	    webpack src/js/entry.js dist/bundle.js
 	    ```
 	* 查看页面效果
 ### 6、使用webpack配置文件
 	* 创建webpack.config.js
-	    ```
+	    ```js
 	    const path = require('path'); //path内置的模块，用来设置路径。
 	    
 	    module.exports = {
@@ -97,25 +97,26 @@
 	    };
 	    ```
 	* 配置npm命令: package.json
-	    ```
+	    ```json
 	    "scripts": {
 	      "build": "webpack"
 	    },
 	    ```
 	* 打包应用
-	    ```
+	    ```bash
 	    npm run build
 	    ```
 ### 7、打包css和图片文件
    * 安装样式的loader
 
-    ```
+    ```bash
     npm install css-loader style-loader --save-dev
     npm install file-loader url-loader --save-dev
-    补充：url-loader是对象file-loader的上层封装，使用时需配合file-loader使用。
+    # 补充：url-loader是对象file-loader的上层封装，使用时需配合file-loader使用。
     ```
   * 配置loader
-    ```
+
+    ```js
     module: {
       rules: [
         {
@@ -139,39 +140,47 @@
       ]
     }
     ```
+
   * 向应用中添加2张图片:
     * 小图: img/logo.png
     * 大图: img/big.jpg
     
   * 创建样式文件: src/css/test.css
-    ```
+
+    ```css
     body {
       background: url('../img/logo.jpg')
     }
     ```
+
   * 更新入口js : entry.js
 	
 	- import '../css/test.css'
   * 添加css样式
 
-		 #box1{
-		  width: 300px;
-		  height: 300px;
-		  background-image: url("../image/logo.jpg");
-		}
-		#box2{
-		  width: 300px;
-		  height: 300px;
-		  background-image: url("../image/big.jpg");
-		}
+    ```css
+    #box1{
+      width: 300px;
+      height: 300px;
+      background-image: url("../image/logo.jpg");
+    }
+    #box2{
+      width: 300px;
+      height: 300px;
+      background-image: url("../image/big.jpg");
+    }
+    ```
 
   * index.html添加元素
+
+     ```html
+     <div id="box1"></div>
+     <div id="box2"></div>
+     ```
   
-		<div id="box1"></div>
-		<div id="box2"></div>
 	
   * 执行打包命令：
-    ```
+    ```bash
     npm run build
     ```
   * 发现问题：
@@ -198,31 +207,38 @@
     * 使用clean-webpack-plugin清除dist文件夹
     * 使用uglifyjs-webpack-plugin压缩打包的js文件
   * 下载
-    ```
+    ```bash
     npm install --save-dev  html-webpack-plugin clean-webpack-plugin
     ```
   * webpack配置
 
+    ```js
 	    const HtmlWebpackPlugin = require('html-webpack-plugin'); //自动生成html文件的插件
         const CleanWebpackPlugin = require('clean-webpack-plugin'); //清除之前打包的文件   
 	    plugins: [
 	      new HtmlWebpackPlugin({template: './index.html'}),
 	      new CleanWebpackPlugin(['dist']),
 	    ]
+    ```
+
+
 
   * 创建页面: index.html
 
-	    <!DOCTYPE html>
-	    <html lang="en">
-	    <head>
-	      <meta charset="UTF-8">
-	      <title>webpack test</title>
-	    </head>
-	    <body>
-	    <div id="app"></div>
-	    <!--打包文件将自动通过script标签注入到此处-->
-	    </body>
-	    </html>
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>webpack test</title>
+    </head>
+    <body>
+    <div id="app"></div>
+    <!--打包文件将自动通过script标签注入到此处-->
+    </body>
+    </html>
+
+    ```
 
   * 打包运行项目
     ```
@@ -230,4 +246,3 @@
     npm start
     ```
 	
-	  

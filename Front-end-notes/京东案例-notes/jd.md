@@ -1,4 +1,4 @@
-[TOC]
+<!-- [TOC] -->
 
 ---
 学习目标:
@@ -12,8 +12,6 @@
   - 理解BFC
   - 了解渐进增强和优雅降级
 
-  typora-copy-images-to: media
----
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 京东项目(一)
@@ -25,7 +23,8 @@
 
 
 
-<img src="media/jd.png" />
+<img src="/Front-end-notes/京东案例-notes/media/jd.png" />
+
 ##  项目背景
 
 现阶段电商类网站很流行，很多同学毕业之后会进入电商类企业工作，同时电商类网站需要的技术也是较为复杂的，这里用京东电商网站复习、总结、提高前面所学布局技术。其实，最主要的原因还是，为啥写京东？  因为刘强东，赚了我们的钱，抢了我们的女神， 我们也要学刘强东，赚别人的钱，抢别人..额，自己的女神。。。
@@ -74,7 +73,8 @@ HTML5 结构 + CSS3  布局 (因为我们就会这些。。。嘻嘻)
 
 https://h5.m.jd.com/dev/3dm8aE4LDBNMkDfcCaRxLnVQ7rqo/index.html
 
-<img src="media/di.png" width="600" />
+<img src="/Front-end-notes/京东案例-notes/media/di.png" width="600" />
+
 
 ## 目录说明
 
@@ -94,7 +94,8 @@ https://h5.m.jd.com/dev/3dm8aE4LDBNMkDfcCaRxLnVQ7rqo/index.html
 
 ###  引入ico图标
 
-<img src="media/ico.png"  style="border: 1px dashed #ccc; padding:3px;" />  
+<img src="/Front-end-notes/京东案例-notes/media/ico.png"  style="border: 1px dashed #ccc; padding:3px;" />  
+
 
 
     代码：  <link rel="shortcut icon" href="favicon.ico"  type="image/x-icon"/>     
@@ -108,7 +109,8 @@ https://h5.m.jd.com/dev/3dm8aE4LDBNMkDfcCaRxLnVQ7rqo/index.html
 
 4. 为了兼容性，请将favicon.ico 这个图标放到根目录下。（我们就不要任性了，听话放位置，省很多麻烦。。你好，我也好）
 
-   <img src="media/icotu.png" />
+   <img src="/Front-end-notes/京东案例-notes/media/icotu.png" />
+
 
 
 ### 转换ico图标
@@ -121,13 +123,15 @@ SEO是由英文Search Engine Optimization缩写而来， 中文意译为“搜�
 
  我们现在阶段主要进行站内优化。网站优化，我们应该要懂。。。
 
-<img src="media/san.png" />
+<img src="/Front-end-notes/京东案例-notes/media/san.png" />
+
 
 
 ####  网页title 标题
 title具有不可替代性，是我们的内页第一个重要标签，是搜索引擎了解网页的入口，和对网页主题归属的最佳判断点。
 
-<img src="media/title.png" width="500" />
+<img src="/Front-end-notes/京东案例-notes/media/title.png" width="500" />
+
 
 建议：
 
@@ -184,12 +188,14 @@ Keywords是页面关键词，是搜索引擎关注点之一。Keywords应该限�
 
 ### 网页布局稳定性 
 
-<img src="media/x.png" />
+<img src="/Front-end-notes/京东案例-notes/media/x.png" />
+
 
 
 ### 宽度剩余法：
 
-<img src="media/w.png" />
+<img src="/Front-end-notes/京东案例-notes/media/w.png" />
+
 
 
 | 知识点    | 说明                                       |
@@ -223,7 +229,8 @@ Keywords是页面关键词，是搜索引擎关注点之一。Keywords应该限�
 
 left 50%   然后 margin-left  版心宽度一半。
 
-<img src="media/guding.png" width="500" />
+<img src="/Front-end-notes/京东案例-notes/media/guding.png" width="500" />
+
 
 学习目标:
 
@@ -253,7 +260,8 @@ left 50%   然后 margin-left  版心宽度一半。
 
 left 50%   然后 margin-left  版心宽度一半。
 
-<img src="media/guding.png" width="500" />
+<img src="/Front-end-notes/京东案例-notes/media/guding.png" width="500" />
+
 
 ## 焦点图部分所用知识点
 
@@ -299,7 +307,8 @@ BFC是一个独立的渲染区域，只有Block-level box参与，它规定了�
 
 分为 块级元素   行内元素  行内块元素 ，其实，它还有很多其他显示模式。
 
-<img src="media/dis.png"  style="border: 1px dashed #ccc; padding: 5px;" />
+<img src="/Front-end-notes/京东案例-notes/media/dis.png"  style="border: 1px dashed #ccc; padding: 5px;" />
+
 
 ### 那些元素会具有BFC的条件
 
@@ -313,13 +322,15 @@ display 属性为 block, list-item, table 的元素，会产生BFC.
 
 这个BFC 有着具体的布局特性： 
 
-<img src="media/box.gif" />
+<img src="/Front-end-notes/京东案例-notes/media/box.gif" />
+
 
 有宽度和高度 ， 有 外边距margin  有内边距padding 有边框 border。
 
 就好比，你有了练习武术的体格了。 有潜力，有资质。
 
-<img src="media/gu.jpeg" width="400" />
+<img src="/Front-end-notes/京东案例-notes/media/gu.jpeg" width="400" />
+
 
 ### 什么情况下可以让元素产生BFC
 
@@ -327,7 +338,8 @@ display 属性为 block, list-item, table 的元素，会产生BFC.
 
 在好比，你光有资质还不行，你需要一定额外效果才能出发的武学潜力，要么你掉到悬崖下面，捡到了一本九阴真经，要么你学习葵花宝典，欲练此功必先....
 
-<img src="media/kuihua.png" />
+<img src="/Front-end-notes/京东案例-notes/media/kuihua.png" />
+
 同样，要给这些元素添加如下属性就可以触发BFC。
 
 -float属性不为none
@@ -355,7 +367,8 @@ BFC布局规则特性：
 
 白话文： 孩子在家里愿意怎么折腾都行，但是出了家门口，你就的乖乖的，不能影响外面的任何人。
 
-<img src="media/xiong.jpeg" width="400" />
+<img src="/Front-end-notes/京东案例-notes/media/xiong.jpeg" width="400" />
+
 
 ### BFC的主要用途
 
@@ -371,7 +384,8 @@ BFC能用来做什么？
 计算BFC的高度时，自然也会检测浮动或者定位的盒子高度。
 ```
 
-<img src="media/fu.jpg" />
+<img src="/Front-end-notes/京东案例-notes/media/fu.jpg" />
+
 (2) 解决外边距合并问题
 
 外边距合并的问题。
@@ -384,7 +398,8 @@ BFC能用来做什么？
 
 属于同一个BFC的两个相邻盒子的margin会发生重叠，那么我们创建不属于同一个BFC，就不会发生margin重叠了。
 
-<img src="media/ma.png" />
+<img src="/Front-end-notes/京东案例-notes/media/ma.png" />
+
 
 (3) 制作右侧自适应的盒子问题
 
@@ -394,7 +409,8 @@ BFC能用来做什么？
 普通流体元素BFC后，为了和浮动元素不产生任何交集，顺着浮动边缘形成自己的封闭上下文
 ```
 
-<img src="media/you.png" />
+<img src="/Front-end-notes/京东案例-notes/media/you.png" />
+
 
 ### BFC 总结
 
@@ -410,7 +426,8 @@ BFC就是页面上的一个隔离的独立容器，容器里面的子元素不�
 
  类似 爬山，由低出往高处爬
 
-  <img src="media/pa.png" width="400" />
+  <img src="/Front-end-notes/京东案例-notes/media/pa.png" width="400" />
+
 
   <b>优雅降级 graceful degradation：</b>
 
@@ -418,7 +435,8 @@ BFC就是页面上的一个隔离的独立容器，容器里面的子元素不�
 
 类似蹦极，由高处往低处下落
 
-<img src="media/xia.jpg" />
+<img src="/Front-end-notes/京东案例-notes/media/xia.jpg" />
+
 
 　　区别：渐进增强是向上兼容，优雅降级是向下兼容。
 
@@ -484,7 +502,8 @@ W3C 统一验证工具：    http://validator.w3.org/unicorn/  ☆☆☆☆☆
 
 ## 旋转轮播图
 
-<img src="media/rotate.png"/>
+<img src="/Front-end-notes/京东案例-notes/media/rotate.png"/>
+
 
 这个效果我们需要用到  透视  过渡还有 子元素  preserve-3d
 
