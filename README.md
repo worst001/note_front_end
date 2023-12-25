@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -9,7 +10,38 @@
 
 <!-- PROJECT LOGO -->
 
-# 前端技术
+<!-- 项目LOGO -->
+<br />
+<div align="center">
+  <a href="http://mkdocs.grft.top">
+    <img src="https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/mkdocs/logo.png" alt="Logo" width="480" height="270">
+  </a>
+
+  <h3 align="center">前端技术</h3>
+
+  <p align="center">
+    <br />
+    <a href="http://mkdocs.grft.top/前端技术/"><strong>探索文档 »</strong></a>
+    <br />
+  </p>
+</div>
+
+<!-- 目录 -->
+<details>
+  <summary>目录</summary>
+  <ol>
+    <li><a href="#关于项目">关于项目</a></li>
+    <li><a href="#什么是前端技术">什么是前端技术</a></li>
+    <li><a href="#技术目录">技术目录</a></li>
+    <li><a href="#贡献">贡献</a></li>
+    <li><a href="#许可证">许可证</a></li>
+    <li><a href="#联系方式">联系方式</a></li>
+    <li><a href="#鸣谢">鸣谢</a></li>
+  </ol>
+</details>
+
+
+## 关于项目
 
 收集了部分前端相关的笔记、文档与手册
 
@@ -21,9 +53,9 @@
 
 - 访问入口：[http://mkdocs.grft.top](http://mkdocs.grft.top)
 
---------------------
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
-## 基本概念
+## 什么是前端技术
 
 前端技术指的是一系列允许开发人员实现用户界面和用户体验的技术。它覆盖了从传统的Web开发到移动应用、桌面程序、游戏开发界面甚至是物联网设备界面的一切技术和方法。
 
@@ -72,13 +104,13 @@
 + 专有的标记语言和API
 + 小程序框架：如微信官方的WXML/WXSS, Taro, uni-app
 
---------------------
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
-## 目录
+## 技术目录
 
 [目录与大纲](index.md)
 
-## 传统前端
+### 传统前端
 
 + [HTML](http://c.biancheng.net/html/)
 + [JS](http://c.biancheng.net/js/)
@@ -99,58 +131,78 @@
 + [开发规范](Front-end-notes/资料/Web前端开发规范手册.pdf)
 
 
-## Flutter
+### Flutter
 
 + [官方文档](https://flutter.cn/docs/get-started/install/macos)
 + [Flutter_课件_pdf](Flutter/笔记/Flutter基础教程课件-v3.pdf)
 
 
-## 公共开放平台
+### 公共开放平台
 
 + [微信公众号 官方文档](https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html)
 + [微信小程序 官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 + [支付宝小程序 官方文档](https://opendocs.alipay.com/mini/present)
 
 
-## 游戏引擎
+### 游戏引擎
 
 + [Unity 手册](https://docs.unity.cn/cn/2021.3/Manual/UnityManual.html)
 + [Unity 技术栈索引](https://github.com/XINCGer/Unity3DTraining)
 + [Unreal 手册](https://docs.unrealengine.com/5.3/zh-CN/)
 + [Unreal 案例](https://github.com/neil3d/UnrealCookbook)
 
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
--------------------
+<!-- 贡献 -->
 
+## 贡献
 
-## 版本控制
+贡献是使开源社区成为一个如此令人惊叹的地方，以学习、激励和创造。您所做的任何贡献都将非常感谢。
 
-该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
+如果您对使这个项目变得更好有建议，请 fork 该仓库并创建 pull request。您也可以打开一个带有“enhancement”标签的问题。不要忘记给这个项目点个星！再次感谢！
 
-<!-- ## 作者 -->
-<!--  -->
-<!-- [小昊子](https://github.com/worst001) -->
-<!--  -->
-<!-- 制做不易，如果有帮到你就请作者喝杯咖啡吧! -->
-<!--  -->
-<!-- ![支付宝加微信](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%8A%A0%E5%BE%AE%E4%BF%A1.jpg) -->
-<!--  -->
-<!-- 作者无聊时做的测试游戏，完全免费哦！ -->
-<!--  -->
-<!-- ![公众号](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%8F.jpg) -->
-
-## 参考资料
-
-[https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)
-
-[https://github.com/babbittry/Front-end-notes](https://github.com/babbittry/Front-end-notes)
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
 
-### 写在最后的话
+<!-- 许可证 -->
+## 许可证
+
+根据 MIT 许可证进行分发。更多信息请参见 [LICENSE.txt](LICENSE)。
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+<!-- 联系方式 -->
+## 联系方式
+
+关注我: [小昊子](https://github.com/worst001)
+
+博客地址: [http://mkdocs.grft.top](http://mkdocs.grft.top)
+
+项目链接: [https://github.com/worst001/mkdocs_front_end](https://github.com/worst001/mkdocs_front_end)
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+## 鸣谢
 
 因为仓库与文档的数量比较大，有些借鉴资料忘了在`参考文档`部分提及原作者与原仓库，若有疏漏请告诉，我及时补上。
 
 所有引用的原资料都确认是开源认证，若有侵权请告知。
+
+[https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)
+
+[https://opendocs.alipay.com](https://opendocs.alipay.com)
+
+[https://github.com/babbittry/Front-end-notes](https://github.com/babbittry/Front-end-notes)
+
+[https://flutter.cn](https://flutter.cn)
+
+[https://docs.unity.cn](https://docs.unity.cn)
+
+[https://docs.unrealengine.com](https://docs.unrealengine.com)
+
+[https://openai.com/chatgpt](https://openai.com/chatgpt)
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
 <!-- links -->
 [your-project-path]:shaojintian/Best_README_template
